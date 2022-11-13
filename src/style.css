@@ -69,7 +69,17 @@ li {
 }
 .celcius {
   text-decoration: none;
+  color: darkgray;
+  cursor: default;
 }
 .fahrenheit {
   text-decoration: none;
+  color: darkgrey;
+  cursor: default;
+}
+.celcius:hover {
+  color: darkgrey;
+}
+.fahrenheit:hover {
+  color: darkgrey;
 }
