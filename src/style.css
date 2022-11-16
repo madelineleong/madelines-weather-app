@@ -20,7 +20,7 @@ ul {
 
 li {
   list-style: none;
-  color: grey;
+  color: #48484a;
   display: block;
   font-size: 16px;
   font-weight: 100;
@@ -55,7 +55,7 @@ li {
 }
 
 .weather-temperature strong {
-  color: grey;
+  color: #48484a;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -69,12 +69,12 @@ li {
 }
 .celcius {
   text-decoration: none;
-  color: darkgray;
+  color: #48484a;
   cursor: default;
 }
 .fahrenheit {
   text-decoration: none;
-  color: darkgrey;
+  color: #48484a;
   cursor: default;
 }
 .celcius:hover {
@@ -82,4 +82,12 @@ li {
 }
 .fahrenheit:hover {
   color: darkgrey;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.forecast-date {
+  font-size: 16px;
+  color: #48484a;
 }
