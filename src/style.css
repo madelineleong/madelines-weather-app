@@ -91,3 +91,8 @@ li {
   font-size: 16px;
   color: #48484a;
 }
+.weather-forecast-temperature {
+  font-size: 13px;
+  color: #48484a;
+  opacity: 0.6;
+}
