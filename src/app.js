@@ -35,7 +35,7 @@ function displayForecast(response) {
     <div class="col-2">
       <div class="forecast-date">${forecastDay.dt}</div>
       <img
-        src="https://openweathermap.org/img/wn/04d@2x.png"
+         src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
         alt="thursday"
         width="40"
       />
@@ -48,6 +48,7 @@ function displayForecast(response) {
 
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
+  console.log(response.data);
 }
 
 function getForecast(coordinates) {
