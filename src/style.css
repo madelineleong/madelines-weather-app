@@ -67,22 +67,6 @@ li {
   top: -34px;
   text-decoration: none;
 }
-.celcius {
-  text-decoration: none;
-  color: #48484a;
-  cursor: default;
-}
-.fahrenheit {
-  text-decoration: none;
-  color: #48484a;
-  cursor: default;
-}
-.celcius:hover {
-  color: darkgrey;
-}
-.fahrenheit:hover {
-  color: darkgrey;
-}
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
